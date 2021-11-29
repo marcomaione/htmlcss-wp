@@ -43,6 +43,7 @@ header {
 
 /**fine prima parte**/
 
+/*inizio intestazione*/
 
 .intestazione {
     height: 400px;
@@ -69,8 +70,34 @@ header {
     border-radius: 10px;
 }
 
+.t-banner {
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    width: 50%;
+
+}
+.t-banner-2 {
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    width: 50%;
+}
+
+/*fine intestazione*/
+
+
+/*inizio main*/
+
 .conteiner-main {
     margin-top: 10px;
+    position: relative;
 }
 
 .conteiner-main::after {
@@ -94,12 +121,30 @@ header {
 
 }
 
+.left {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
 .bar-center {
     margin-left: 5px;
     margin-top: 30px;
     width: 58%;
     float: left;
     position: relative;
+}
+
+.center {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 2px;
+    border-radius: 10px;
+    margin-top: 2px;
 }
 
 .sidebar-right {
@@ -112,28 +157,6 @@ header {
     
 }
 
-footer {
-    height: 80px;
-    margin-top: 40px;
-    
-}
-
-.conteiner-main::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-.left {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-left: 2px;
-    margin-top: 2px;
-}
-
 .rigth {
     width: 100%;
     height: 300px;
@@ -143,13 +166,21 @@ footer {
     margin-top: 2px;
 }
 
-.center {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    margin-left: 2px;
-    border-radius: 10px;
-    margin-top: 2px;
+.img3 {
+    width:100%;
+    height:300px;
+
+}
+
+
+
+/*fine main*/
+
+
+footer {
+    height: 80px;
+    margin-top: 40px;
+    
 }
 
 .cuore {
